@@ -1,0 +1,197 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 85C Model Setup 'CPU:CPU|instr_ptr[0]'
+Slack : -7.880
+TNS   : -176.005
+
+Type  : Slow 1200mV 85C Model Setup 'PreScale_Hz:TenHURTS|Inc[10]'
+Slack : -5.231
+TNS   : -189.474
+
+Type  : Slow 1200mV 85C Model Setup 'CLOCK_50'
+Slack : -3.593
+TNS   : -79.633
+
+Type  : Slow 1200mV 85C Model Setup 'PreScale_Hz:TwoHURTS|Inc[10]'
+Slack : -3.469
+TNS   : -25.110
+
+Type  : Slow 1200mV 85C Model Hold 'PreScale_Hz:TenHURTS|Inc[10]'
+Slack : -1.027
+TNS   : -1.027
+
+Type  : Slow 1200mV 85C Model Hold 'PreScale_Hz:TwoHURTS|Inc[10]'
+Slack : -0.482
+TNS   : -1.482
+
+Type  : Slow 1200mV 85C Model Hold 'CPU:CPU|instr_ptr[0]'
+Slack : 0.173
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'CLOCK_50'
+Slack : 0.407
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Recovery 'PreScale_Hz:TenHURTS|Inc[10]'
+Slack : -4.420
+TNS   : -215.137
+
+Type  : Slow 1200mV 85C Model Recovery 'CLOCK_50'
+Slack : -3.478
+TNS   : -99.093
+
+Type  : Slow 1200mV 85C Model Removal 'PreScale_Hz:TenHURTS|Inc[10]'
+Slack : -1.112
+TNS   : -4.196
+
+Type  : Slow 1200mV 85C Model Removal 'CLOCK_50'
+Slack : 0.148
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'CLOCK_50'
+Slack : -3.000
+TNS   : -44.120
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'PreScale_Hz:TenHURTS|Inc[10]'
+Slack : -1.285
+TNS   : -82.240
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'PreScale_Hz:TwoHURTS|Inc[10]'
+Slack : -1.285
+TNS   : -10.280
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'CPU:CPU|instr_ptr[0]'
+Slack : 0.419
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'CPU:CPU|instr_ptr[0]'
+Slack : -7.160
+TNS   : -161.637
+
+Type  : Slow 1200mV 0C Model Setup 'PreScale_Hz:TenHURTS|Inc[10]'
+Slack : -4.538
+TNS   : -162.297
+
+Type  : Slow 1200mV 0C Model Setup 'PreScale_Hz:TwoHURTS|Inc[10]'
+Slack : -3.115
+TNS   : -22.756
+
+Type  : Slow 1200mV 0C Model Setup 'CLOCK_50'
+Slack : -3.089
+TNS   : -67.484
+
+Type  : Slow 1200mV 0C Model Hold 'PreScale_Hz:TenHURTS|Inc[10]'
+Slack : -0.993
+TNS   : -0.993
+
+Type  : Slow 1200mV 0C Model Hold 'PreScale_Hz:TwoHURTS|Inc[10]'
+Slack : -0.517
+TNS   : -1.546
+
+Type  : Slow 1200mV 0C Model Hold 'CPU:CPU|instr_ptr[0]'
+Slack : 0.174
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'CLOCK_50'
+Slack : 0.364
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Recovery 'PreScale_Hz:TenHURTS|Inc[10]'
+Slack : -4.018
+TNS   : -194.140
+
+Type  : Slow 1200mV 0C Model Recovery 'CLOCK_50'
+Slack : -3.097
+TNS   : -88.213
+
+Type  : Slow 1200mV 0C Model Removal 'PreScale_Hz:TenHURTS|Inc[10]'
+Slack : -1.087
+TNS   : -4.126
+
+Type  : Slow 1200mV 0C Model Removal 'CLOCK_50'
+Slack : 0.160
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'CLOCK_50'
+Slack : -3.000
+TNS   : -44.120
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'PreScale_Hz:TenHURTS|Inc[10]'
+Slack : -1.285
+TNS   : -82.240
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'PreScale_Hz:TwoHURTS|Inc[10]'
+Slack : -1.285
+TNS   : -10.280
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'CPU:CPU|instr_ptr[0]'
+Slack : 0.389
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'CPU:CPU|instr_ptr[0]'
+Slack : -3.125
+TNS   : -69.087
+
+Type  : Fast 1200mV 0C Model Setup 'PreScale_Hz:TenHURTS|Inc[10]'
+Slack : -2.265
+TNS   : -67.256
+
+Type  : Fast 1200mV 0C Model Setup 'CLOCK_50'
+Slack : -1.791
+TNS   : -34.673
+
+Type  : Fast 1200mV 0C Model Setup 'PreScale_Hz:TwoHURTS|Inc[10]'
+Slack : -1.292
+TNS   : -9.009
+
+Type  : Fast 1200mV 0C Model Hold 'PreScale_Hz:TenHURTS|Inc[10]'
+Slack : -0.245
+TNS   : -0.245
+
+Type  : Fast 1200mV 0C Model Hold 'PreScale_Hz:TwoHURTS|Inc[10]'
+Slack : -0.184
+TNS   : -0.554
+
+Type  : Fast 1200mV 0C Model Hold 'CPU:CPU|instr_ptr[0]'
+Slack : -0.141
+TNS   : -0.350
+
+Type  : Fast 1200mV 0C Model Hold 'CLOCK_50'
+Slack : 0.174
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Recovery 'PreScale_Hz:TenHURTS|Inc[10]'
+Slack : -1.765
+TNS   : -76.255
+
+Type  : Fast 1200mV 0C Model Recovery 'CLOCK_50'
+Slack : -1.202
+TNS   : -31.641
+
+Type  : Fast 1200mV 0C Model Removal 'PreScale_Hz:TenHURTS|Inc[10]'
+Slack : -0.502
+TNS   : -1.874
+
+Type  : Fast 1200mV 0C Model Removal 'CLOCK_50'
+Slack : -0.075
+TNS   : -0.375
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'CLOCK_50'
+Slack : -3.000
+TNS   : -41.855
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'PreScale_Hz:TenHURTS|Inc[10]'
+Slack : -1.000
+TNS   : -64.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'PreScale_Hz:TwoHURTS|Inc[10]'
+Slack : -1.000
+TNS   : -8.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'CPU:CPU|instr_ptr[0]'
+Slack : 0.413
+TNS   : 0.000
+
+------------------------------------------------------------

@@ -1,0 +1,42 @@
+Library ieee;
+Use ieee.std_logic_1164.all;
+Use ieee.numeric_std.all;
+Use work.Types.all;
+
+
+Entity CPU is
+	port(
+		clk: in std_logic;
+		instr_stack: in instr8a(15 downto 0);
+		reg_stack: out r8a(15 downto 0)
+	);
+End Entity;
+
+
+Architecture Behaviour of Swag9000 is
+	signal instr_ptr: unsigned(7 downto 0) := "00";
+	signal adder: std_logic_vector(7 downto 0);
+	signal ureg: u8a(15 downto 0);
+	signal reg: r8a(15 downto 0) := (X"00", X"00", X"00", X"00", 
+	                                 X"00", X"00", X"00", X"00",
+	                                 X"00", X"00", X"00", X"00",
+	                                 X"00", X"00", X"00", X"00");
+Begin
+
+	-- ureg <= r8a(reg);
+	Gen_ureg: for I in 0 to 15 generate
+		ureg(I) <= unsigned(reg(I));
+	end generate Gen_ureg;
+
+	adder <= std_logic_vector(ureg(0) + 1);
+	reg(0) <= adder when Rising_Edge(clk);
+
+	--(instr_ptr)
+
+	instr_ptr <= instr_ptr + 1 when Rising_Edge(clk);
+
+
+	-- Output registers
+	reg_stack <= reg;
+
+End Architecture;

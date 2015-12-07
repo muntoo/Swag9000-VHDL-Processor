@@ -1,0 +1,16 @@
+Library ieee;
+Use ieee.std_logic_1164.all;
+--Use ieee.numeric_std.all;
+
+Package Types is
+		
+	type r16 is array (Natural range <>) of std_logic_vector(15 downto 0);
+	type r8 is array (Natural range <>) of std_logic_vector(7 downto 0);
+	type hex_array is array (Natural range <>) of std_logic_vector(6 downto 0);
+
+end Types;
+
+
+Package body Types is
+
+end Types;

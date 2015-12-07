@@ -1,0 +1,51 @@
+Library ieee;
+Use ieee.std_logic_1164.all;
+Use ieee.numeric_std.all;
+Use work.Types.all;
+
+
+Entity Swag9000
+	port(
+		CLOCK_50: in std_logic;
+		KEY: in std_logic_vector(3 downto 0);
+		SW: in std_logic_vector(17 downto 0);
+		LEDG: out std_logic_vector(4 downto 0);
+		LEDR: out std_logic_vector(17 downto 0);
+		HEX: out hex_array(7 downto 0)
+	);
+
+End Entity;
+
+
+Architecture Behaviour of Swag9000 is
+	signal Clk_1Hz: std_logic;
+	signal stack: r8(15 downto 0);
+Begin
+
+	-- Display register stack
+	Gen_Display: for I in 0 to 7 generate
+		Display: Entity work.SegDecoder
+		port map(
+			D => stack(I),
+			Y => HEX(I)
+		);
+	end generate Gen_Display;
+
+	-- Clocks
+	-- 1Hz
+	OneHURTS: Entity work.PreScale_Hz
+	generic map(
+		WAIT_COUNT => 50000000,
+		BITS => 32 -- 20?
+	)
+	port map(
+		S_CLK => CLOCK_50,
+		S_EN => '1',
+		S_CLR => '0',
+		CLK_OUT => Clk_1Hz
+	);
+
+End Architecture;
+
+
+

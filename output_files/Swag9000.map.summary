@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Fri Dec 04 01:48:38 2015
+Quartus II 64-Bit Version : 15.0.2 Build 153 07/15/2015 SJ Full Version
+Revision Name : Swag9000
+Top-level Entity Name : Swag9000
+Family : Cyclone IV E
+Total logic elements : 384
+    Total combinational functions : 384
+    Dedicated logic registers : 104
+Total registers : 104
+Total pins : 105
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0
